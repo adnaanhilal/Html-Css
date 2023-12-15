@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom, rgba(174, 216, 233, 0.845), rgb(152, 152, 198));
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+main{
+    background-color: aliceblue;
+    border-radius: 2em;
+    box-shadow: 0.5em 0.5em 1em rgb(44, 67, 67);
+    width: 80em;
+    padding: 1.5em;
+    margin: auto;
+
+}
+/*em HTML e id = em CSS e #
+em HTML e classe = em CSS e .*/
+h1#principal{
+    text-align: center;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    color: rgba(25, 124, 32, 0.397);
+    
+}
+
+h1{
+    color: rgb(33, 53, 62);
+
+}
+
+h2{
+    color: rgb(50, 83, 83);
+}
+
+.basico{
+    color: rgb(50, 83, 83);
+    font-weight: bold;
+}
+.intermediario{
+    color: rgb(175, 175, 83);
+}
+
+.avancado{
+    color: burlywood;
+}
+
+.destaque{
+    background-color: rgba(124, 124, 72, 0.194);
+    text-align: center;
+}
