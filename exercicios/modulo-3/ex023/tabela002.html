@@ -14,17 +14,15 @@
                 width: 500px;
                 border-collapse: collapse;
                 text-align: center;
+                position: relative;
+                
             }
 
             caption{
                 font-size: 1.5em;
                 font-weight: bold;
-                background-color: lightgray;
-            }
-
-            td, th{
-                border: 1px solid black;
-                padding: 5px;
+                background-color: rgba(46, 44, 44, 0.874);
+                color: white;
             }
 
             thead, tfoot{
@@ -33,6 +31,23 @@
                 text-shadow: 2px 2px 1px black;
             }
 
+            thead > tr > th{
+                position: sticky;
+                top: -1px;
+                background-color: gray;
+            }
+
+            td, th{
+                border: 1px solid black;
+                padding: 5px;
+            }
+
+            tbody > tr:nth-child(2n){
+                background-color: lightgrey;
+            }
+
+          
+
 
         </style>
 </head>
@@ -40,10 +55,12 @@
     <h1>Uso de tabelas grandes</h1>
 
     <table>
-        <caption>Populacao</caption>
+        <caption>Populacao brasileira</caption>
         <thead>
-            <th scope="col">Estado</th>
-            <th scope="col" style="width: 200px;">Populacao</th>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 200px;">Populacao</th>
+            </tr>
         </thead>
 
         <tbody>
@@ -131,5 +148,19 @@
             </tr>
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit alias quis deleniti harum laboriosam at quaerat quos omnis. Qui, error. Amet suscipit cumque quasi deleniti numquam. Minima nisi porro corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ducimus aliquam quibusdam explicabo neque sequi, labore veniam quasi, illo qui atque eius nihil repellendus, cumque nostrum. Cupiditate debitis doloribus fuga! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident officia nulla praesentium at laboriosam totam quaerat eos eveniet, tenetur impedit sunt? Perferendis dicta perspiciatis velit beatae sit ipsa iure officia? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae perferendis recusandae fugiat minus accusamus corporis libero vel impedit delectus quasi. Culpa suscipit sit nihil mollitia esse adipisci odit est voluptatem?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit alias quis deleniti harum laboriosam at quaerat quos omnis. Qui, error. Amet suscipit cumque quasi deleniti numquam. Minima nisi porro corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ducimus aliquam quibusdam explicabo neque sequi, labore veniam quasi, illo qui atque eius nihil repellendus, cumque nostrum. Cupiditate debitis doloribus fuga! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident officia nulla praesentium at laboriosam totam quaerat eos eveniet, tenetur impedit sunt? Perferendis dicta perspiciatis velit beatae sit ipsa iure officia? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae perferendis recusandae fugiat minus accusamus corporis libero vel impedit delectus quasi. Culpa suscipit sit nihil mollitia esse adipisci odit est voluptatem?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit alias quis deleniti harum laboriosam at quaerat quos omnis. Qui, error. Amet suscipit cumque quasi deleniti numquam. Minima nisi porro corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ducimus aliquam quibusdam explicabo neque sequi, labore veniam quasi, illo qui atque eius nihil repellendus, cumque nostrum. Cupiditate debitis doloribus fuga! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident officia nulla praesentium at laboriosam totam quaerat eos eveniet, tenetur impedit sunt? Perferendis dicta perspiciatis velit beatae sit ipsa iure officia? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae perferendis recusandae fugiat minus accusamus corporis libero vel impedit delectus quasi. Culpa suscipit sit nihil mollitia esse adipisci odit est voluptatem?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit alias quis deleniti harum laboriosam at quaerat quos omnis. Qui, error. Amet suscipit cumque quasi deleniti numquam. Minima nisi porro corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ducimus aliquam quibusdam explicabo neque sequi, labore veniam quasi, illo qui atque eius nihil repellendus, cumque nostrum. Cupiditate debitis doloribus fuga! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident officia nulla praesentium at laboriosam totam quaerat eos eveniet, tenetur impedit sunt? Perferendis dicta perspiciatis velit beatae sit ipsa iure officia? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae perferendis recusandae fugiat minus accusamus corporis libero vel impedit delectus quasi. Culpa suscipit sit nihil mollitia esse adipisci odit est voluptatem?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit alias quis deleniti harum laboriosam at quaerat quos omnis. Qui, error. Amet suscipit cumque quasi deleniti numquam. Minima nisi porro corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ducimus aliquam quibusdam explicabo neque sequi, labore veniam quasi, illo qui atque eius nihil repellendus, cumque nostrum. Cupiditate debitis doloribus fuga! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident officia nulla praesentium at laboriosam totam quaerat eos eveniet, tenetur impedit sunt? Perferendis dicta perspiciatis velit beatae sit ipsa iure officia? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae perferendis recusandae fugiat minus accusamus corporis libero vel impedit delectus quasi. Culpa suscipit sit nihil mollitia esse adipisci odit est voluptatem?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit alias quis deleniti harum laboriosam at quaerat quos omnis. Qui, error. Amet suscipit cumque quasi deleniti numquam. Minima nisi porro corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ducimus aliquam quibusdam explicabo neque sequi, labore veniam quasi, illo qui atque eius nihil repellendus, cumque nostrum. Cupiditate debitis doloribus fuga! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident officia nulla praesentium at laboriosam totam quaerat eos eveniet, tenetur impedit sunt? Perferendis dicta perspiciatis velit beatae sit ipsa iure officia? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae perferendis recusandae fugiat minus accusamus corporis libero vel impedit delectus quasi. Culpa suscipit sit nihil mollitia esse adipisci odit est voluptatem?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit alias quis deleniti harum laboriosam at quaerat quos omnis. Qui, error. Amet suscipit cumque quasi deleniti numquam. Minima nisi porro corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ducimus aliquam quibusdam explicabo neque sequi, labore veniam quasi, illo qui atque eius nihil repellendus, cumque nostrum. Cupiditate debitis doloribus fuga! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident officia nulla praesentium at laboriosam totam quaerat eos eveniet, tenetur impedit sunt? Perferendis dicta perspiciatis velit beatae sit ipsa iure officia? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae perferendis recusandae fugiat minus accusamus corporis libero vel impedit delectus quasi. Culpa suscipit sit nihil mollitia esse adipisci odit est voluptatem?</p>
 </body>
 </html>
