@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            
+            border-collapse: collapse;
+            
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead style="background-color: gray;">
+                <th >Area</th>
+                <th >Disciplinas</th>
+                <th colspan="2">Notas</th>
+                     
+                <th >Media</th>
+            
+        </thead>
+
+        <tbody>
+            <tr>
+                
+                <th rowspan="4">Exatas</th>
+                <td>Matematica</td>
+                <td>15</td>
+                <td>15</td>
+                <td>15</td>
+            </tr>
+
+            <tr>
+                <td>Fisica</td>
+                <td>16</td>
+                <td>16</td>
+                <td>16</td>
+            </tr>
+
+            <tr>
+                <td>Quimica</td>
+                <td>14</td>
+                <td>16</td>
+                <td>15</td>
+            </tr>
+
+            <tr>
+                <td>Biologia</td>
+                <td>13</td>
+                <td>17</td>
+                <td>15</td>
+            </tr>
+
+           <tr style="background-color: lightslategray;">
+            <th colspan="4" >Media de Exatas</th>
+            <td>15</td>
+           </tr>
+
+           <tr>
+            <th rowspan="2">Humanas</th>
+            <td>Historia</td>
+            <td>16</td>
+            <td>16</td>
+            <td>16</td>
+           </tr>
+
+           <tr>
+            <td>Geografia</td>
+            <td>14</td>
+            <td>18</td>
+            <td>16</td>
+           </tr>
+
+           <tr style="background-color: lightslategray;">
+            <th colspan="4" >Media de Humanas</th>
+            <td>16</td>
+           </tr>
+        </tbody>
+
+        <tfoot>
+
+
+        </tfoot>
+    </table>
+</body>
+</html>
